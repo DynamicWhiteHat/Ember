@@ -16,14 +16,14 @@ I first started off by selecting the laser for my laser cutter. Since I don't ha
 
 Initially, I had decided to build a CO2 laser like the one in the video, as it is powerful and not too hard to build. However, after looking at the prices for just the CO2 laser tube, I decided to switch to a cheaper and less powerful diode laser. Most CO2 lasers were costing around $200. At this price point, it would be hard for me to get other parts such as the MCU and the steppers while fitting in the motion system.
 
-<img src="image.png" width="600">
+<img src="src/image.png" width="600">
 
 I decided to switch to buying a 10W diode laser, which is cheaper yet can still cut through many things. Additionally, switching to this cheaper alternative allowed me to fit some additional items in my budget, such as a screen for the MCU. I no longer have to buy mirrors to reflect the CO2 lasers. I narrowed down my selection to these three lasers:
 
 -------------------------------------------------------------------------------------------------------------------
 | LaserTree 10W LT-80W-AA-PRO $139    | NEJE E40 $139                       | NEJE E30 $99                        |
 |-------------------------------------|-------------------------------------|-------------------------------------|
-| <img src="image-1.png" width="400"> | <img src="image-2.png" width="400"> | <img src="image-3.png" width="400"> |
+| <img src="src/image-1.png" width="400"> | <img src="src/image-2.png" width="400"> | <img src="src/image-3.png" width="400"> |
 -------------------------------------------------------------------------------------------------------------------
 
 After comparing the three, I chose the [LaserTree 10W laser](https://lasertree.com/products/10w-optical-output-power-laser-cutter-module?variant=42608494149783) due to poor reviews of NEJE products that I found online. It also includes some additonal items at the same price point as the NEJE E40. My total cost is now $139.
@@ -36,7 +36,7 @@ I needed to pick a reliable and powerful PSU to make sure that the cutter was ge
 
 Once again I searched online for some commonly used MCU units. I could either use an Arduino with the CNC shield, which, although it simple to use, doesn't provide many additional features such as wireless connectivity or a display adapter. I also found the MCUs from MakerBase. Their MKS DLC32 caught my eye since it featured an ESP32 allowing wireless connectivity and had the option for a display. I also own a 3D printer that uses a MakerBase MCU, so I have some experience with using their products. I decided to settle on [this](https://www.aliexpress.us/item/3256802997183501.html?spm=a2g0o.store_pc_home.productList_8356958.pic_0&gatewayAdapt=glo2usa4itemAdapt#nav-review) product from the official MakerBase seller on AliExpress. The price for this product is $68, bringing the total price up to $239. The bundle with the display also came with 3 TMC2209 stepper drivers, which meant that I didn't have to buy them separately. 
 
-<img src="image-4.png" height="400">
+<img src="src/image-4.png" height="400">
 
 ### Choosing the steppers
 
@@ -50,7 +50,7 @@ Now that I have the main parts selected out, I decided to look into a few additi
 
 I started doing the CAD and decided to make an enclosed cutting system to prevent eye damage. I started the CAD by importing a few 2020 aluminum T extrusions from McMasterCarr into Fusion and built a box. This was my first time using joints and it was great to see everything fit together perfectly without me having to meticulously move things into position. At the end of this session, I ended up with this outline:
 
-<img src="image-5.png" width="600">
+<img src="src/image-5.png" width="600">
 
 
 I might have to cut the cost on some parts to be able to fit this design into the $350 budget.
