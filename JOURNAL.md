@@ -48,7 +48,7 @@ Now that I have the main parts selected out, I decided to look into a few additi
 
 ### CAD
 
-I started doing the CAD and decided to make an enclosed cutting system to prevent eye damage. I started the cad by importing a few 2020 aluminum T extrusions from McMasterCarr into Fusion and built a box. This was my first time using joints and it was great to see everything fit together perfectly without me having to meticulously move things into position. At the end of this session, I ended up with this outline:
+I started doing the CAD and decided to make an enclosed cutting system to prevent eye damage. I started the CAD by importing a few 2020 aluminum T extrusions from McMasterCarr into Fusion and built a box. This was my first time using joints and it was great to see everything fit together perfectly without me having to meticulously move things into position. At the end of this session, I ended up with this outline:
 
 <img src="image-5.png" width="600">
 
@@ -56,3 +56,21 @@ I started doing the CAD and decided to make an enclosed cutting system to preven
 I might have to cut the cost on some parts to be able to fit this design into the $350 budget.
 
 ### Total time spent: 5 hours
+
+# June 15th: CAD
+
+I decided to restart my CAD since doing a fully enclosed cutter would most likely exceed the $350 budget. Instead, I opted to do an open design, especially after I sa that the laser module has a laser filter around the beam itself, so it should be safe to run without an enclosure. I found [this](https://www.youtube.com/watch?v=NyUJvcocJpA&t=475s&pp=ygUQZGl5IGxhc2VyIGN1dHRlcg%3D%3D) video online which gave me a good idea on how to start this design. I first created the frame for everything using 2020 aluminum extrusions and closed gusset corner brackets for stability and added some feet.
+
+![image](https://github.com/user-attachments/assets/4d4ab33f-9528-4480-a619-876fa35b77cc)
+
+After that, I tried to create the y-axis, but I just couldn't figure out how to design it. I understood how the mechanics of it worked, but I didn't know where to begin designing it. After looking at some other 3D printed designs online, I found [this](https://www.thingiverse.com/thing:3567976/files) design, which was very helpful. It also had a PDF for how to build it, which allowed me to understand how parts fit each other. After I found this design, I started updating my own design and ended up with this for the y-axis:
+
+![image](https://github.com/user-attachments/assets/c39df9d5-0e28-46a8-bc45-7a5a0e8ba036)
+
+Designing this took a while since I forgot to account for the height of the stepper motor, which made me redesign the 8mm rod holders once I started the steppers. This was also my first time using joints to create motion, and I used this to make rotating GT2 belt pulleys.
+
+Finally, I started on the x-axis. The first YouTube video I found placed their rods on the same horizontal axis, which made the overall design shorter. The 2nd design I found had them placed vertically, which made it taller. However, because of the 2nd design's taller x-axis, there was more surface area to attach the laser itself, giving it better stability, so I decided to go with this design. This is my x-axis, which I have to finish.
+
+![image](https://github.com/user-attachments/assets/67c43957-39dd-476c-926a-4646b6beb1c2)
+
+### Total time spent: 10 hours
