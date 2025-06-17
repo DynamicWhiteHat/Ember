@@ -100,3 +100,16 @@ The only thing left to do is source the parts and find cheaper alternatives for 
 
 ### Total time spent: 8 hours
 
+## Final Design Addition 6/17/25
+
+I was working on making sure everything fit under $350, and I decided to change to the NEJE E40 instead of the LaserTree since NEJE offers free shipping compared to LaserTree's $35. This required a redesign of the x-axis holder for the laser, which now looks like this:
+
+![image](https://github.com/user-attachments/assets/03b9445a-52fa-465e-89aa-f73edab1b2dc)
+
+I also realized while looking for 2020 extrusions that the model I was using in Fusion had smooth inside edges whereas the actual ones had sharp edges. This once again required a redesign of the components that required a tight fit instead of screws to stay in place.
+
+Now that I've finished all that and selected the parts, I think the design of this project is finally complete!
+
+### Time spent: 2 hours
+
+
