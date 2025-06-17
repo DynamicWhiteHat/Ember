@@ -74,3 +74,29 @@ Finally, I started on the x-axis. The first YouTube video I found placed their r
 ![image](https://github.com/user-attachments/assets/67c43957-39dd-476c-926a-4646b6beb1c2)
 
 ### Total time spent: 10 hours
+
+# June 16th: Finished CAD
+
+I spent most of the day working on the CAD model. The first thing I did was finish the x-axis. I had to add the stepper motor onto one end of the axis, which made the holder for it very large. One issue I ran into while designing this portion was that there were no M3 screws greater than 20mm available for cheap online to fasten the motor onto the 3D printed part. The workaround I came up with was a magnetic plate that went over top of the screws to hide an indent I made so I could fit shorter screws. That ended up looking like this:
+
+| Plate Off | Plate On |
+|-----------|----------|
+| ![image](https://github.com/user-attachments/assets/05c0eef3-3540-4a51-b22b-44ece49e0498) | ![image](https://github.com/user-attachments/assets/855e4b4d-b3e5-417d-b105-f34758483237) |
+
+After that bit, I worked on adding in the GT2 pulley and the idler pulley on the x-axis ends. The right side had the motor on it, so that side had the pulley. The left side of the axis had the idler pulley added to it. Once this was complete, my axis looked like this:
+
+![image](https://github.com/user-attachments/assets/9748f6ab-1977-4cf2-a5cf-1b0c67634a71)
+
+The next thing I had to add was the mount for the laser diode itself. I was able to find a 3D model of the laser on [Thingiverse](https://www.thingiverse.com/thing:6265918/files). I found this model especially interesting since the designer was able to model the laser while preserving many of its details in Tinkercad. I was confused about how the laser head would attach to the axis, but I found an amazon listing for a part that comes with the laser and that cleared everything up. I mounted the laser near the top half of the center, which ended up looking like this:
+
+| ![image](https://github.com/user-attachments/assets/1b8c23ab-4290-4488-ac1f-8dd3375d7e9e) | ![image](https://github.com/user-attachments/assets/6842a416-c9d4-4a75-853e-9970066f574d) |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+
+The only part left to model was the main control board (DLC32) and the touchscreen for it. I imported some 3D models I found on GrabCAD and projected their edges with an offset of 0.2. This let me quickly extrude out a box for the board and screen. I left the back for the board open to allow wires to come through. Once I was done with those two, I added spots for the endstops. This was a bit difficult since I was not able to find an exact 3D model online and the listing had very little information on measurements. I edited a similar model I found and used it to make cavities to put them in. This is my final design:
+
+![image](https://github.com/user-attachments/assets/52d59792-481a-4869-b18a-4b467ef48184)
+
+The only thing left to do is source the parts and find cheaper alternatives for other parts since I know I will go over budget. If I need to reduce a lot of money, I can switch to the $99 laser head, which would give me $50 more to work with.
+
+### Total time spent: 8 hours
+
