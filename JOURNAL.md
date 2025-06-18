@@ -8,6 +8,8 @@ description: "A custom-built $350 10w laser cutter."
 created_at: "2025-06-13"
 ---
 
+# Total Time Spent: 25 Hours
+
 # June 13th: Selected parts and started CAD
 
 I first started off by selecting the laser for my laser cutter. Since I don't have any experience with building or even usign laser cutters, I decided to watch a few videos on the topic. [This](https://www.youtube.com/watch?v=7gnD6F0yBH0&list=PLT2B-jiRa_P4blv69gIPtibwSavtNRHN4&index=2) video was particularly useful in helping me understand the topic.
