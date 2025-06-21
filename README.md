@@ -31,6 +31,7 @@ Rough Wiring:
 
 ### BOM
 NOTE: Without the AliExpress welcome deal (which only applies to the first product I order), most of these products are cheaper from Amazon, which is why many of them are sourced from there.
+
 Recommended PPE (anything OD 6+): https://www.amazon.com/190nm-490nm-Professional-Protective-Wavelength-Protection/dp/B08R4PMCHR 
 | Part                         | Quantity               | Price   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
