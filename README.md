@@ -1,6 +1,8 @@
 # Ember
 ## A Custom Designed 10W Diode Laser Cutter
 
+## IMPORTANT: It is imperative to ensure proper safety when operating, observing, or in the vicinity of a powerful laser. Please ensure you have proper PPE equipment and handle lasers safely. Please see the BOM for a recommended pair of PPE.
+
 ### Specifications:
 
 - NEJE E40 10W 24v Diode Laser
@@ -29,6 +31,7 @@ Rough Wiring:
 
 ### BOM
 NOTE: Without the AliExpress welcome deal (which only applies to the first product I order), most of these products are cheaper from Amazon, which is why many of them are sourced from there.
+Recommended PPE (anything OD 6+): https://www.amazon.com/190nm-490nm-Professional-Protective-Wavelength-Protection/dp/B08R4PMCHR 
 | Part                         | Quantity               | Price   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Laser                        |                      1 | $134.83 | https://neje.shop/products/e40?variant=40316129378440                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
